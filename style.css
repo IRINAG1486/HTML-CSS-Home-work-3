@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.navigation_logo {
+    color: #000;
+
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 14px;
+}
+
+.text_orange {
+    color: #f25822;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navigation_block_first {
+    color: #f25822;
+
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin-left: 500px;
+}
+
+.navigation_block {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin-left: 33px;
+}
+
+.contant {
+    padding-top: 44px;
+}
+
+.contant_text_titl {
+    color: #000;
+
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+
+.contant_text_main {
+    color: #888;
+
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 37px;
+}
+
+.push {
+    border-radius: 50px;
+    background: #f25822;
+
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+    color: #fff;
+
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 15px 35px 16px 36px;
+    margin-right: 72px;
+    margin-bottom: 162px;
+    border: none;
+}
+
+.contant_button_link {
+    text-decoration: none;
+    color: #aaa;
+
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo {
+    padding-top: 97px;
+    padding-bottom: 97px;
+}
