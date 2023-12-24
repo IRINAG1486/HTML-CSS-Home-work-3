@@ -199,6 +199,27 @@
     width: 515px;
 }
 
+.solution-button {
+}
+
+.solutions-push {
+    border-radius: 50px;
+    background: #f25822;
+
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #fff;
+
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
 .offers {
     padding-top: 100px;
     padding-bottom: 100px;
