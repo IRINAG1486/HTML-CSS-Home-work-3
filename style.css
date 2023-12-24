@@ -24,6 +24,14 @@
     font-weight: 500;
 }
 
+@font-face {
+    font-family: "Gilroy-Regular";
+
+    src: url("./fonts/GilroyRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
 .center {
     padding-left: calc(50% - 554px);
     padding-right: calc(50% - 554px);
@@ -46,7 +54,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    /* margin: 14px; */
+
     display: flex;
     align-items: center;
     gap: 14px;
@@ -70,7 +78,6 @@
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
-    /* margin-left: 500px; */
 }
 
 .navigation_block {
@@ -78,14 +85,14 @@
     font-family: "Gilroy-Medium";
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
     text-decoration: none;
     margin-left: 33px;
 }
 
 .contant {
-    padding-top: 44px;
+    padding-top: 42px;
     display: flex;
     align-items: stretch;
     gap: 41px;
@@ -99,6 +106,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 60px;
     margin-bottom: 17px;
 }
 
@@ -108,7 +116,7 @@
     font-family: "Gilroy-Medium";
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
     margin-bottom: 37px;
     width: 466px;
@@ -133,7 +141,7 @@
     line-height: normal;
     padding: 15px 35px 16px 36px;
     /* margin-right: 72px; */
-    margin-bottom: 162px;
+    margin-bottom: 103px;
     border: none;
 }
 
@@ -150,8 +158,195 @@
 
 .logo {
     padding-top: 97px;
-    padding-bottom: 97px;
+    padding-bottom: 96px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.solutions {
+    margin-top: 32px;
+    margin-bottom: 23px;
+    /* padding-top: 32px;
+    padding-bottom: 124px; */
+    display: flex;
+    gap: 80px;
+    background: #fafafa;
+}
+
+.solutions-text-title {
+    color: #000;
+
+    font-family: "Gilroy-Bold";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 95px;
+    margin-bottom: 20px;
+    width: 409px;
+}
+
+.solutions-text-main {
+    color: #666;
+
+    font-family: "Gilroy-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    margin-bottom: 35px;
+    width: 515px;
+}
+
+.offers {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.offers-block {
+    padding-top: 40px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+}
+
+.offers-block-center {
+    background: #fff;
+
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.offers-title {
+    margin-top: 25px;
+    margin-bottom: 17px;
+    color: #000;
+
+    font-family: "Gilroy-Bold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.offers-text {
+    margin-bottom: 25px;
+    color: #666;
+
+    font-family: "Gilroy-Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+    width: 310px;
+}
+.offers-link {
+    text-decoration: none;
+    color: #000;
+
+    font-family: "Gilroy-Bold";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 16.5px */
+}
+
+.advantages {
+    padding-top: 92px;
+    padding-bottom: 100px;
+    background: #fafafa;
+}
+
+.advantages-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+}
+
+.advantages-header-titl {
+    color: #000;
+    font-family: "Gilroy-Bold";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.advantages-header-text {
+    color: #666;
+    font-family: "Gilroy-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    width: 682px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.advantages-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.advantages-main-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    padding-bottom: 50px;
+}
+
+.advantages-main-center {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.advantages-main-title {
+    color: #000;
+
+    font-family: "Gilroy-Bold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 22px;
+}
+
+.advantages-main-text {
+    color: #aaa;
+
+    text-align: center;
+    font-family: "Gilroy-Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+    width: 310px;
+    margin-bottom: 39px;
+}
+
+.advantages_button {
+    display: flex;
+    gap: 6px;
+    align-items: baseline;
+}
+
+.advantages-push {
+    border-radius: 50px;
+    background: #f25822;
+
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+    color: #fff;
+
+    font-family: "Gilroy-Bold";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 15px 35px 16px 36px;
+    border: none;
 }
